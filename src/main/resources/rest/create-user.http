@@ -1,0 +1,12 @@
+POST /email
+Host: localhost:8082
+Content-Type: application/json;charset=UTF-8
+
+{
+  "to": "2262288@gmail.com",
+  "from": "slava_rossii@list.ru",
+  "subject": "Subject",
+  "text": "Текст"
+}
+
+###
